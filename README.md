@@ -50,10 +50,10 @@ Proyek ini tidak memerlukan library eksternal.
 
 Clone repository:
 
-```bash
+
 git clone https://github.com/Husemn/task-tracker.git
 cd task-tracker
-```
+
 
 ---
 
