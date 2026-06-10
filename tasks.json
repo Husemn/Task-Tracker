@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "description": "Minum Air Putih",
+    "status": "done",
+    "createdAt": "2026-06-10 08:54:37",
+    "updatedAt": "2026-06-10 09:00:28"
+  },
+  {
+    "id": 2,
+    "description": "Olahraga",
+    "status": "in-progress",
+    "createdAt": "2026-06-10 08:54:53",
+    "updatedAt": "2026-06-10 08:59:37"
+  },
+  {
+    "id": 3,
+    "description": "Mandi",
+    "status": "done",
+    "createdAt": "2026-06-10 08:55:00",
+    "updatedAt": "2026-06-10 09:00:35"
+  },
+  {
+    "id": 4,
+    "description": "Mencuci Baju",
+    "status": "done",
+    "createdAt": "2026-06-10 08:55:15",
+    "updatedAt": "2026-06-10 09:00:49"
+  },
+  {
+    "id": 5,
+    "description": "Merapikan Kamar",
+    "status": "in-progress",
+    "createdAt": "2026-06-10 08:55:24",
+    "updatedAt": "2026-06-10 08:59:46"
+  },
+  {
+    "id": 6,
+    "description": "Membaca Buku",
+    "status": "in-progress",
+    "createdAt": "2026-06-10 08:55:37",
+    "updatedAt": "2026-06-10 08:59:53"
+  },
+  {
+    "id": 7,
+    "description": "Rapat",
+    "status": "todo",
+    "createdAt": "2026-06-10 08:55:53",
+    "updatedAt": "2026-06-10 08:55:53"
+  },
+  {
+    "id": 8,
+    "description": "Makan",
+    "status": "todo",
+    "createdAt": "2026-06-10 08:55:58",
+    "updatedAt": "2026-06-10 08:55:58"
+  },
+  {
+    "id": 10,
+    "description": "Tidur Siang",
+    "status": "todo",
+    "createdAt": "2026-06-10 08:56:41",
+    "updatedAt": "2026-06-10 08:56:41"
+  },
+  {
+    "id": 11,
+    "description": "Menyiram Tanaman",
+    "status": "done",
+    "createdAt": "2026-06-10 08:57:04",
+    "updatedAt": "2026-06-10 09:01:08"
+  },
+  {
+    "id": 12,
+    "description": "Ganti Baju",
+    "status": "todo",
+    "createdAt": "2026-06-10 08:57:26",
+    "updatedAt": "2026-06-10 09:03:23"
+  }
+]
