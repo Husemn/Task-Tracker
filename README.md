@@ -52,6 +52,7 @@ Clone repository:
 
 
 git clone https://github.com/Husemn/task-tracker.git
+
 cd task-tracker
 
 
