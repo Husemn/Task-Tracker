@@ -3,28 +3,28 @@
 Project URL:
 https://roadmap.sh/projects/task-tracker
 
-## Overview
+## Deskripsi
 
-Task Tracker CLI is a command-line application built with Python for managing daily tasks. The application allows users to create, update, delete, and track the status of tasks directly from the terminal.
+Task Tracker CLI adalah aplikasi berbasis Command Line Interface (CLI) yang dibuat menggunakan Python untuk membantu pengguna mengelola daftar tugas sehari-hari.
 
-Task data is stored locally in a JSON file, making the application lightweight and easy to use without requiring a database.
-
----
-
-## Features
-
-* Add a new task
-* Update an existing task
-* Delete a task
-* Mark a task as in progress
-* Mark a task as completed
-* List all tasks
-* Filter tasks by status
-* Store task data in JSON format
+Aplikasi ini memungkinkan pengguna untuk menambah, memperbarui, menghapus, dan memantau status tugas langsung dari terminal. Seluruh data tugas disimpan secara lokal dalam file JSON sehingga tidak memerlukan database tambahan.
 
 ---
 
-## Project Structure
+## Fitur
+
+* Menambahkan tugas baru
+* Memperbarui tugas yang sudah ada
+* Menghapus tugas
+* Menandai tugas sebagai **sedang dikerjakan (in-progress)**
+* Menandai tugas sebagai **selesai (done)**
+* Menampilkan seluruh tugas
+* Memfilter tugas berdasarkan status
+* Menyimpan data ke file JSON
+
+---
+
+## Struktur Proyek
 
 ```text
 Task Tracker/
@@ -38,17 +38,17 @@ Task Tracker/
 
 ---
 
-## Requirements
+## Persyaratan
 
-* Python 3.10+
+* Python 3.10 atau lebih baru
 
-No external libraries are required.
+Proyek ini tidak memerlukan library eksternal.
 
 ---
 
-## Installation
+## Instalasi
 
-Clone the repository:
+Clone repository:
 
 ```bash
 git clone https://github.com/Husemn/task-tracker.git
@@ -57,63 +57,79 @@ cd task-tracker
 
 ---
 
-## Usage
+## Cara Menjalankan
 
-### Add a task
+### Menambahkan tugas
 
 ```bash
-python task-cli.py add "Learn Python"
+python task-cli.py add "Belajar Python"
 ```
 
-Example output:
+Contoh output:
 
 ```text
-Task added successfully (ID: 1)
+Tugas berhasil ditambahkan (ID: 1)
 ```
 
-### Update a task
+---
+
+### Memperbarui tugas
 
 ```bash
-python task-cli.py update 1 "Learn Advanced Python"
+python task-cli.py update 1 "Belajar Python Lanjutan"
 ```
 
-### Delete a task
+---
+
+### Menghapus tugas
 
 ```bash
 python task-cli.py delete 1
 ```
 
-### Mark task as in progress
+---
+
+### Menandai tugas sedang dikerjakan
 
 ```bash
 python task-cli.py mark-in-progress 1
 ```
 
-### Mark task as done
+---
+
+### Menandai tugas selesai
 
 ```bash
 python task-cli.py mark-done 1
 ```
 
-### List all tasks
+---
+
+### Menampilkan semua tugas
 
 ```bash
 python task-cli.py list
 ```
 
-### List completed tasks
+---
+
+### Menampilkan tugas yang selesai
 
 ```bash
 python task-cli.py list done
 ```
 
-### List in-progress tasks
+---
+
+### Menampilkan tugas yang sedang dikerjakan
 
 ```bash
 python task-cli.py list in-progress
 ```
 
-### List todo tasks
+---
+
+### Menampilkan tugas yang belum dikerjakan
 
 ```bash
 python task-cli.py list todo
@@ -121,31 +137,46 @@ python task-cli.py list todo
 
 ---
 
-## Data Storage
+## Penyimpanan Data
 
-All tasks are stored in:
+Semua data tugas disimpan dalam file:
 
 ```text
 tasks.json
 ```
 
-Each task contains:
+Setiap tugas memiliki informasi:
 
-* id
-* description
-* status
-* createdAt
-* updatedAt
+* ID
+* Deskripsi tugas
+* Status
+* Waktu pembuatan
+* Waktu terakhir diperbarui
 
 ---
 
-## Example Task Object
+## Contoh Data Tugas
 
 ```json
 {
   "id": 1,
-  "description": "Learn Python",
+  "description": "Belajar Python",
   "status": "todo",
   "createdAt": "2025-01-01T10:00:00",
   "updatedAt": "2025-01-01T10:00:00"
 }
+```
+
+---
+
+## Tujuan Proyek
+
+Proyek ini dibuat sebagai bagian dari roadmap pembelajaran backend untuk melatih:
+
+* Manipulasi file JSON
+* Pemrograman Python
+* Pengelolaan data menggunakan CLI
+* Praktik pengembangan perangkat lunak sederhana
+
+---
+
